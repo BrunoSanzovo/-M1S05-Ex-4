@@ -1,0 +1,68 @@
+/* Estilos para os botões */
+button {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    margin-right: 10px; /* Margem à direita para separar os botões */
+}
+
+button:hover {
+    background-color: #45a049; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+body {
+    background-image: url('assets/super.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9; /
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    color: #012900; /* Melhora a cor da fonte */
+}
+.product-item {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 8px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 12px 10px;
+    cursor: pointer;
+}
